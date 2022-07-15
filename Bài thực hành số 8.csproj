@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Bài_thực_hành_số_8</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bài 1.1.cs" />
+    <Compile Remove="Bài 1.2.cs" />
+    <Compile Remove="Bài 3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Bài 1.1.cs" />
+    <None Include="Bài 1.2.cs" />
+    <None Include="Bài 3.cs" />
+  </ItemGroup>
+
+</Project>
